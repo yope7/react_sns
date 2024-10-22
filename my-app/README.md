@@ -68,3 +68,50 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Setting Up the Backend Server
+
+To set up the backend server, follow these steps:
+
+1. Navigate to the `backend` directory:
+   ```sh
+   cd backend
+   ```
+
+2. Install the required dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Start the backend server:
+   ```sh
+   node server.js
+   ```
+
+The backend server will be running on [http://localhost:5000](http://localhost:5000).
+
+## Running the Frontend and Backend Together
+
+To run the frontend and backend together, follow these steps:
+
+1. Open a new terminal window and navigate to the `my-app` directory:
+   ```sh
+   cd my-app
+   ```
+
+2. Start the frontend development server:
+   ```sh
+   npm start
+   ```
+
+3. Open another terminal window and navigate to the `backend` directory:
+   ```sh
+   cd backend
+   ```
+
+4. Start the backend server:
+   ```sh
+   node server.js
+   ```
+
+The frontend will be running on [http://localhost:3000](http://localhost:3000) and the backend will be running on [http://localhost:5000](http://localhost:5000).
