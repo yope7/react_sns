@@ -115,3 +115,13 @@ To run the frontend and backend together, follow these steps:
    ```
 
 The frontend will be running on [http://localhost:3000](http://localhost:3000) and the backend will be running on [http://localhost:5000](http://localhost:5000).
+
+## Using the Service
+
+To use the service, follow these steps:
+
+1. Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+2. You will see a form to create a new post. Enter your post content and click the "Post" button.
+3. Your new post will appear in the list of posts below the form.
+4. You can create multiple posts and they will be displayed in reverse chronological order (newest first).
+
