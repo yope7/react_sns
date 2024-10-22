@@ -88,7 +88,22 @@ To set up the backend server, follow these steps:
    node server.js
    ```
 
-The backend server will be running on [http://localhost:5000](http://localhost:5000).
+
+The backend server will be running on [http://localhost:8080](http://localhost:8080).
+
+## Setting Up the SQLite Database
+
+To set up the SQLite database, follow these steps:
+
+1. Navigate to the `backend` directory:
+   ```sh
+   cd backend
+   ```
+
+2. Run the following command to initialize the database:
+   ```sh
+   node database.js
+   ```
 
 ## Running the Frontend and Backend Together
 
@@ -114,4 +129,12 @@ To run the frontend and backend together, follow these steps:
    node server.js
    ```
 
-The frontend will be running on [http://localhost:3000](http://localhost:3000) and the backend will be running on [http://localhost:5000](http://localhost:5000).
+## Using the Service
+
+To use the service, follow these steps:
+
+1. Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+2. You will see a form to create a new post. Enter your post content and click the "Post" button.
+3. Your new post will appear in the list of posts below the form.
+4. You can create multiple posts and they will be displayed in reverse chronological order (newest first).
+
