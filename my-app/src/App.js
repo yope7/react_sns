@@ -7,7 +7,9 @@ function App() {
   const [newPost, setNewPost] = useState('');
 
   useEffect(() => {
+
     fetch('http://localhost:8080/api/posts')
+
       .then((response) => response.json())
       .then((data) => setPosts(data))
       .catch((error) => console.error('Error fetching posts:', error));
@@ -15,6 +17,7 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
     fetch('http://localhost:8080/api/posts', {
       method: 'POST',
       headers: {
