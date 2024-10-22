@@ -46,6 +46,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <nav className="App-nav">
+        <button>Home</button>
+        <button>Posts</button>
+        <button>About</button>
+      </nav>
       <main>
         <form onSubmit={handleSubmit}>
           <input
@@ -62,6 +67,10 @@ function App() {
           ))}
         </ul>
       </main>
+      <section className="App-surface-pages">
+        <h2>Surface Pages</h2>
+        <p>Content for surface pages goes here.</p>
+      </section>
     </div>
   );
 }
